@@ -1,6 +1,6 @@
 [web]
   port = 8910
-  apiProxyPath = "/.netlify/functions"
+  apiProxyPath = "https://vibrant-kowalevski-dfc8d7.netlify.app/.netlify/functions"
 
 [api]
   port = 8911
