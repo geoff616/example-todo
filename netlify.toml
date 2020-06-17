@@ -3,6 +3,11 @@
   publish = "web/dist"
   functions = "api/dist/functions"
 
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+
 [dev]
   command = "yarn rw dev"
 
